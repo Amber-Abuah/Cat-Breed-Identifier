@@ -11,7 +11,7 @@ img_size = 400
 model = tf.keras.models.load_model("CatClassifier.keras")
 
 def model_predict(image):
-    image = cv2.resize(image, (400,400))
+    image = cv2.resize(image, (img_size, img_size))
     image = np.expand_dims(image, axis=0)
 
     predictions = model.predict(image)
