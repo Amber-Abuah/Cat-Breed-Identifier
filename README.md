@@ -33,3 +33,6 @@ The following datasets were combined and used to train the model:
 This allowed each class to have ~550 images for each breed.
 
 To reduce overfitting Batch Normalisation layers were applied after every Convolutional layer and a Dropout layer was utilised within the first fully connected layer to allow the network to better generalise.
+
+Download the full model .keras model [here!](https://huggingface.co/spaces/sweetfelinity/CatBreedPredictor/blob/main/CatClassifier.keras)  
+Take a look at the [deployed app in action here.](https://huggingface.co/spaces/sweetfelinity/CatBreedPredictor)

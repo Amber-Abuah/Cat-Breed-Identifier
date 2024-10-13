@@ -100,8 +100,6 @@ model.fit(
 
 # Save model to disk
 model.save("CatClassifier.keras")
-model.save_weights('CatClassifierWeights.h5')
 print("Model saved.")
 
 # Load full model: model = tf.keras.models.load_model("CatClassifier.keras")
-# Load model weights: Create model architecture as above then call model.load_weights("CatClassifierWeights.h5")
