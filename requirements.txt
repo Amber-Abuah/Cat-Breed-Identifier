@@ -1,4 +1,4 @@
 tensorflow
 gradio
 numpy
-cv2
+opencv-python
